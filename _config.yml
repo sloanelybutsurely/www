@@ -1,0 +1,33 @@
+title: sloanelybutsurely.com
+email: sloane@sloanelybutsurely.com
+description: >- # this means to ignore newlines until "baseurl:"
+  sloane's own little slice of the web. she has all sorts of stuff in here!
+  come take a gander.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sloanelybutsurely.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  sloanelybutsurely
+locale: en
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
