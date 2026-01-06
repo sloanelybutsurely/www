@@ -4,11 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sloanelybutsurely.com</title>
-
-    <meta name="description" content="{{ site.description }}" />
-    <link rel="alternate" type="application/rss+xml" title="sloanelybutsurely.com posts (rss)" href="/feed.xml">
-
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    {% feed_meta %}
+    {% seo %}
   </head>
   <body class="{{ page.layout }} {{ page.page_class }}">
     {{ content }}
