@@ -15,6 +15,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      hidden: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

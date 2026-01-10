@@ -1,6 +1,7 @@
 ---
 title: books
 layout: page
+nav_order: 20
 ---
 
 here is an incomplete list of books i've read or am currently reading*.

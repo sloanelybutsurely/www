@@ -1,6 +1,7 @@
 ---
 layout: page
-title: email newsletter
+title: newsletter
+nav_order: 30
 ---
 
 if you're not an RSS consumer you can still get (most) of my posts directly to
