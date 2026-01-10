@@ -8,6 +8,12 @@ url: "https://sloanelybutsurely.com" # the base hostname & protocol for your sit
 github_username:  sloanelybutsurely
 locale: en
 permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
