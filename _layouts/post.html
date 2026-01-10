@@ -2,8 +2,9 @@
 layout: page
 ---
 
-{{ content }}
+<small>written by {{ site.author }} on {{ page.date | date_to_string: "ordinal", "US" | downcase }}</small>
 
+{{ content }}
 
 <hr />
 
