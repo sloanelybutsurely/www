@@ -54,3 +54,13 @@ p {
     color: white;
   }
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input, button {
+  color: black;
+}
