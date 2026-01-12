@@ -4,10 +4,14 @@ layout: page
 nav_order: 20
 ---
 
-here is an incomplete list of books i've read or am currently reading*.
+here is an incomplete list of books i've read or am currently reading*. i track
+my reading using [storygraph]. you can follow me there if you would like but
+please know that i currently don't share reviews of books as a rule.
 
 ### 2026
 
+- _Embassytown_* by China Miéville
+- _The Art of Spending Money_* by Morgan Housel
 - _Trick Shot_* by Kayla Grosse
 - _Things Become Other Things_* by Craig Mod
 - _The Lord of the Rings: The Two Towers_* by J.R.R. Tolkien
@@ -47,3 +51,11 @@ here is an incomplete list of books i've read or am currently reading*.
 - _Nevada_ by Imogen Binnie
 - _Project Hail Mary_ by Andy Weir
 - _Make the Season Bright_ by Ashley Herring Blake
+
+### before 2025
+
+this information is currently not available because it is stored
+[elsewhere][storygraph]. i might do the work of importing that information
+later.
+
+[storygraph]: https://app.thestorygraph.com/profile/sloanelybutsurely
