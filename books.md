@@ -11,7 +11,7 @@ please know that i currently don't share reviews of books as a rule.
 ### 2026
 
 - _Embassytown_* by China Miéville
-- _The Art of Spending Money_* by Morgan Housel
+- _The Art of Spending Money_ by Morgan Housel
 - _Trick Shot_* by Kayla Grosse
 - _Things Become Other Things_* by Craig Mod
 - _The Lord of the Rings: The Two Towers_* by J.R.R. Tolkien
