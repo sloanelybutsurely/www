@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   sloane's own little slice of the web. she has all sorts of stuff in here!
   come take a gander.
 baseurl: "" # the subpath of your site, e.g. /blog
+cdn_base_url: "https://cdn.sloanelybutsurely.com"
 url: "https://sloanelybutsurely.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sloanelybutsurely
 locale: en
@@ -29,3 +30,4 @@ exclude:
   - mise.toml
   - README.md
   - "**/README.md"
+  - scripts/
