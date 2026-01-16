@@ -2,9 +2,11 @@
 layout: page
 ---
 
-<small>written by {{ site.author }} on {{ page.date | date_to_string: "ordinal", "US" | downcase }}</small>
+<small>written by <a href="https://sloanelybutsurely.com" class="p-author h-card">{{ site.author }}</a> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string: "ordinal", "US" | downcase }}</time></small>
 
-{{ content }}
+<div class="e-content">
+  {{ content }}
+</div>
 
 <hr />
 
