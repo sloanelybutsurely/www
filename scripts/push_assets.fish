@@ -9,5 +9,3 @@ rclone sync $media_dir $rclone_remote \
   --checksum \
   --exclude ".DS_Store" \
   --exclude "*.tmp"
-
-ruby ./scripts/build_manifest.rb
