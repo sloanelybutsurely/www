@@ -1,7 +1,7 @@
 ---
 title: "weekly retro #1"
 layout: post
-tags: retro chorus quakers lifting reading
+tags: retro journal chorus quakers lifting reading
 ---
 
 i recently got rid of my smart phone (don't worry i'm not about to proselytize
