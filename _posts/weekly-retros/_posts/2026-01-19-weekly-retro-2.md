@@ -6,8 +6,8 @@ tags: retro journal christmas books reading music
 
 ## christmas
 
-christmas is official over in our home. all of the decor was put away to clear
-room to host my sister's birthday party (a helpful catalyst).
+christmas is officially over in our home. all of the decor was put away to
+clear room to host my sister's birthday party (a helpful catalyst).
 
 ## books
 
