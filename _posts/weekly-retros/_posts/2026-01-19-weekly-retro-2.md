@@ -23,12 +23,12 @@ to pick up. i'm enjoying it so far.
 
 ## music
 
-i've been revisiting some mid-aughts electro-rock. i was search for the album
-we are pilots by shiny toy guns in the library's catalog when i came across
-[nightmare revisited]: a compilation of _nightmare before christmas_ covers by
-alternative bands from the 2000s (korn, flyleaf, evanescence's amy lee, rise
-against, the all-american rejects to name a few). truly on of the most hot
-topic mall goth things i've ever experienced. delightful.
+i've been revisiting some mid-aughts electro-rock. i was searching for the
+album we are pilots by shiny toy guns in the library's catalog when i came
+across [nightmare revisited]: a compilation of _nightmare before christmas_
+covers by alternative bands from the 2000s (korn, flyleaf, evanescence's amy
+lee, rise against, the all-american rejects to name a few). truly one of the
+most hot topic mall goth things i've ever experienced. delightful.
 
 <div style="display: flex; flex-direction: row; column-gap: 1rem; margin-bottom: 1rem;">
     <iframe width="533" height="300" src="https://www.youtube-nocookie.com/embed/RFSmvZRLZWU?si=pz0ecr694pU9qwqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
