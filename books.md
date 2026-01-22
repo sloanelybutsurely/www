@@ -11,12 +11,12 @@ please know that i currently don't share reviews of books as a rule.
 ### currently reading
 
 - _Embassytown_ by China Miéville
-- _Things Become Other Things_ by Craig Mod
 - _The Lord of the Rings: The Two Towers_ by J.R.R. Tolkien
 - _All About Love_ by bell hooks
 
 ### 2026
 
+- _Things Become Other Things_ by Craig Mod
 - _The Art of Spending Money_ by Morgan Housel
 - _Having People Over_ by Chelsea Fagan
 - _Listening to the Light_ by Jim Pym
