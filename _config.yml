@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 cdn_base_url: "https://cdn.sloanelybutsurely.com"
 url: "https://sloanelybutsurely.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sloanelybutsurely
-locale: en
+locale: en-US
 permalink: pretty
 defaults:
   - scope:

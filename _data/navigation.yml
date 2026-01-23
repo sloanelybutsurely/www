@@ -1,0 +1,14 @@
+- name: home
+  link: /
+
+- name: about
+  link: /about/
+
+- name: posts
+  link: /posts/
+
+- name: books
+  link: /books/
+
+- name: newsletter
+  link: /newsletter/
