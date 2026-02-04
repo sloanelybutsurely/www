@@ -1,5 +1,5 @@
 ---
-title: books
+title: reading
 layout: page
 nav_order: 20
 ---

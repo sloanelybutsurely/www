@@ -7,8 +7,8 @@
 - name: posts
   link: /posts/
 
-- name: books
-  link: /books/
+- name: reading
+  link: /reading/
 
 - name: newsletter
   link: /newsletter/
