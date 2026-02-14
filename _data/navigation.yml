@@ -1,11 +1,5 @@
 - name: about
   link: /about/
 
-- name: posts
-  link: /posts/
-
-- name: reading
-  link: /reading/
-
 - name: newsletter
   link: /newsletter/
