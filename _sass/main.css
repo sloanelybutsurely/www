@@ -103,7 +103,8 @@ article > section > * {
 
 article > section,
 article > figure,
-article > section > figure {
+article > section > figure,
+article > header:has(h1) {
   max-width: var(--page-width);
 }
 
