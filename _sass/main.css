@@ -69,6 +69,7 @@ html {
   font-family: var(--serif-font);
   line-height: var(--line-height);
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
