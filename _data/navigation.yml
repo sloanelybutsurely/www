@@ -1,5 +1,5 @@
-- name: about
+- name: About
   link: /about/
 
-- name: newsletter
+- name: Newsletter
   link: /newsletter/

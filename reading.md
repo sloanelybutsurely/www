@@ -1,13 +1,13 @@
 ---
-title: reading
+title: Reading
 layout: post
 ---
 
-here is an incomplete list of books i've read or am currently reading. i track
-my reading using [storygraph]. you can follow me there if you would like but
+Here is an incomplete list of books I've read or am currently reading. I track
+my reading using [storygraph]. You can follow me there if you would like but
 please know that i currently don't share reviews of books as a rule.
 
-### currently reading
+### Currently Reading
 
 - _The Lord of the Rings: The Two Towers_ by J.R.R. Tolkien
 
@@ -55,10 +55,10 @@ please know that i currently don't share reviews of books as a rule.
 - _Project Hail Mary_ by Andy Weir
 - _Make the Season Bright_ by Ashley Herring Blake
 
-### before 2025
+### Before 2025
 
-this information is currently not available because it is stored
-[elsewhere][storygraph]. i might do the work of importing that information
+This information is currently not available because it is stored
+[elsewhere][storygraph]. I might do the work of importing that information
 later.
 
 [storygraph]: https://app.thestorygraph.com/profile/sloanelybutsurely

@@ -1,5 +1,5 @@
 ---
-title: "a cool thing: Kill The Newsletter!"
+title: "A Cool Thing: Kill The Newsletter!"
 tags:
   - cool-things
   - newsletters
@@ -13,7 +13,7 @@ turn it into an email newsletter (I'm still looking by the way!) when I came
 across [Kill The Newsletter!][kill-the-newsletter] which is kind of the inverse
 of what I was going for but still neat.
 
-Kill The Newsletter! lets you create feeds associated with an email address so
+Kill The Newsletter! Lets you create feeds associated with an email address so
 you can subscribe to newsletters in your feed reader of choice (I like
 [NewNewsWire][netnewswire]).
 

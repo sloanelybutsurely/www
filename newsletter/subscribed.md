@@ -1,8 +1,10 @@
 ---
 layout: page
-title: success!
+title: Success!
 permalink: /newsletter/subscribed/
 hidden: true
 ---
 
-you have successfully registered to receive new posts via email. you may close this window.
+# Success!
+
+You have successfully registered to receive new posts via email. You may close this window.
