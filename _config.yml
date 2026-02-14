@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 cdn_base_url: "https://cdn.sloanelybutsurely.com"
 url: "https://sloanelybutsurely.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sloanelybutsurely
+github_username: sloanelybutsurely
 locale: en-US
 permalink: pretty
 defaults:
@@ -16,11 +16,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      hidden: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -31,3 +26,4 @@ exclude:
   - README.md
   - "**/README.md"
   - scripts/
+  - rclone.conf
