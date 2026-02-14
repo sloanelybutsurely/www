@@ -18,7 +18,7 @@ in turn inspired me to do something similar as well.
 
 VOX (the Columbus gay men's chorus's \[which includes everyone and not just gay
 men\] small ensemble) held auditions on Wednesday. I sang an a capella
-rendition of Kim Petras's _[if jesus was a rockstar]_ which our director
+rendition of Kim Petras's _[If Jesus Was a Rockstar]_ which our director
 Brayton got a kick of of. Thankfully it was also sufficient in securing me a
 place in the group for another year.
 
@@ -40,7 +40,7 @@ attending.
 In other news I've been working on building up this site
 ([sloanelybutsurely.com]) and adding simple email newsletter functionality,
 getting back into my powerlifting routine (now with an in-person lifting
-buddy!), and doing a lot of [reading] and journaling.
+buddy!), and doing a lot of reading and journaling.
 
 Until next week!
 
@@ -48,8 +48,7 @@ Until next week!
 [NetNewsWire]: https://netnewswire.com/
 [john-week-in-review]: https://johnholdun.com/articles/week-in-review-1
 [jenn-weekly-retros]: https://livelaugh.blog/retro
-[if jesus was a rockstar]: https://youtu.be/4woJSCPEITQ?si=hSJcGldtA7HKqtgc
+[If Jesus Was a Rockstar]: https://youtu.be/4woJSCPEITQ?si=hSJcGldtA7HKqtgc
 [meeting for worship]: https://www.fgcquaker.org/fgcresources/quaker-practices/meeting-for-worship/
 [rachel murray]: https://outlander.fandom.com/wiki/Rachel_Murray
 [sloanelybutsurely.com]: https://sloanelybutsurely.com
-[reading]: /books/
