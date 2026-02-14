@@ -21,7 +21,6 @@ plugins:
   - jekyll-seo-tag
 exclude:
   - .jj/
-  - wrangler.toml
   - mise.toml
   - README.md
   - "**/README.md"
