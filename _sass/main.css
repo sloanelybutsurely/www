@@ -1,0 +1,204 @@
+/* Global variables. */
+:root {
+  /* Set sans-serif & mono fonts */
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+  --serif-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+  --line-height: 1.2rem;
+
+  /* Default (light) theme */
+  --bg: #fff;
+  --accent-bg: #f5f7ff;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #898EA4;
+  --accent: #0d47a1;
+  --accent-hover: #1266e2;
+  --accent-text: var(--bg);
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
+
+  /* Sizes */
+  --page-width: 80ch;
+  --text-width: 50ch;
+  --page-padding: 2ch;
+}
+
+/* Dark theme */
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     color-scheme: dark; */
+/*     --bg: #212121; */
+/*     --accent-bg: #2b2b2b; */
+/*     --text: #dcdcdc; */
+/*     --text-light: #ababab; */
+/*     --accent: #ffb300; */
+/*     --accent-hover: #ffe099; */
+/*     --accent-text: var(--bg); */
+/*     --code: #f06292; */
+/*     --preformatted: #ccc; */
+/*     --disabled: #111; */
+/*   } */
+/* } */
+
+/* Reset box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Reset default appearance */
+textarea,
+select,
+input,
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+html {
+  font-family: var(--serif-font);
+  line-height: var(--line-height);
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+  max-width: var(--page-width);
+  padding: var(--page-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-bottom: 0.75rem;
+}
+h2, h3 {
+  margin-bottom: 0.5rem;
+}
+section {
+  margin-top: 1rem;
+}
+p, table, ol, ul, figure, aside, dl, hr {
+  margin-bottom: var(--line-height);
+}
+
+sup, sub {
+  line-height: 0;
+}
+/* Typography */
+h1, h2, h3 {
+  font-family: var(--sans-font);
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2, h3 {
+  font-size: 1.5rem;
+}
+
+:is(h1, h2, h3) > a {
+  color: inherit;
+  text-decoration: none;
+}
+:is(h1, h2, h3) > a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  hyphens: auto;
+  text-align: justify;
+}
+
+/* Layout */
+article > *,
+article > section > * {
+  max-width: var(--text-width);
+}
+
+article > section,
+article > figure,
+article > section > figure {
+  max-width: var(--page-width);
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header {
+  & nav {
+    display: flex;
+    column-gap: 1ch;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  & a {
+    color: var(--text) !important; 
+  }
+
+  & .title {
+    flex-grow: 2;
+    font-size: 1.2rem;
+  }
+}
+
+header:has(> h1) {
+  margin-bottom: .75rem;
+  & h1 {
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+}
+
+ul, ol, dl {
+  padding-left: 2ch;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+
+img, video {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe[src^="https://youtube"],
+iframe[src^="https://www.youtube"], {
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  height: auto;
+}
+
+figure > img, figure > video, figure > iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: var(--accent);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -30,10 +30,12 @@ covers by alternative bands from the 2000s (korn, flyleaf, evanescence's amy
 lee, rise against, the all-american rejects to name a few). truly one of the
 most hot topic mall goth things i've ever experienced. delightful.
 
-<div style="display: flex; flex-direction: row; column-gap: 1rem; margin-bottom: 1rem;">
-    <iframe width="533" height="300" src="https://www.youtube-nocookie.com/embed/RFSmvZRLZWU?si=pz0ecr694pU9qwqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe width="300" height="300" src="https://www.youtube-nocookie.com/embed/W2IVn0wiYXs?si=nBgoKaHUBsDkddwB&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RFSmvZRLZWU?si=pz0ecr694pU9qwqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W2IVn0wiYXs?si=nBgoKaHUBsDkddwB&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 ## all ghillied up
 
@@ -44,10 +46,13 @@ chernobyl meltdown) in a ghillie suit. thinking about that game in my head
 while i walk between my car and wherever i'm going is a little bit of pretend i
 still indulge in.
 
-<div style="display: flex; flex-direction: row; column-gap: 1rem; margin-bottom: 0.5rem;">
-<video width="373" height="210" controls src="{% media_url posts/2026/01/19/weekly-retro-2/all_ghillied_up.mp4 %}"></video>
-<iframe width="373" height="210" src="https://www.youtube-nocookie.com/embed/x3bfcM5vWpE?si=_bxL0Ju7BMZmShLZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<figure>
+    <video width="560" height="315" controls src="{% media_url posts/2026/01/19/weekly-retro-2/all_ghillied_up.mp4 %}"></video>
+</figure>
+
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x3bfcM5vWpE?si=_bxL0Ju7BMZmShLZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 ## name
 

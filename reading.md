@@ -4,6 +4,8 @@ layout: page
 nav_order: 20
 ---
 
+# reading
+
 here is an incomplete list of books i've read or am currently reading. i track
 my reading using [storygraph]. you can follow me there if you would like but
 please know that i currently don't share reviews of books as a rule.
