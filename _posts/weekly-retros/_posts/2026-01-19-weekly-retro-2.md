@@ -1,5 +1,5 @@
 ---
-title: "weekly retro #2"
+title: "Weekly Retro #2"
 layout: post
 tags: retro journal christmas books reading music
 ---
