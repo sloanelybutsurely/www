@@ -125,6 +125,7 @@ header {
   & nav {
     display: flex;
     column-gap: 1ch;
+    row-gap: .5rem;
     align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
