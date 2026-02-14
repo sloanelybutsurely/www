@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: post
 title: about
 permalink: /about/
-nav_order: 0
 ---
 
 i'm sloane. i'm a trans woman in her thirties living in ohio. i have a home

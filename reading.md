@@ -1,10 +1,7 @@
 ---
 title: reading
-layout: page
-nav_order: 20
+layout: post
 ---
-
-# reading
 
 here is an incomplete list of books i've read or am currently reading. i track
 my reading using [storygraph]. you can follow me there if you would like but
