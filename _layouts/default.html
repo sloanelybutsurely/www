@@ -11,5 +11,18 @@
     <main>
       {{ content }}
     </main>
+
+    <script type="text/javascript">
+      document.querySelectorAll('h1[id],h2[id],h3[id]').forEach(heading => {
+        const parent = heading.parentNode
+        const link = document.createElement('a')
+        link.setAttribute('href', `#${heading.id}`)
+        heading.childNodes.forEach(child => {
+          console.log(child)
+          link.appendChild(child)
+        })
+        heading.appendChild(link)
+      })
+    </script>
   </body>
 </html>
