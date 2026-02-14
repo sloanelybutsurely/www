@@ -116,8 +116,17 @@ header {
     display: flex;
     column-gap: 1ch;
     align-items: baseline;
+    justify-content: space-between;
     flex-wrap: wrap;
     font-family: var(--sans-font);
+  }
+
+  & nav ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 1ch;
+    align-items: baseline;
   }
 
   & a {
