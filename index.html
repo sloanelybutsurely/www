@@ -5,7 +5,7 @@ layout: page
 <ul class="index">
 {% for post in site.posts %}
   <li>
-    <time datetime="{{ post.date }}">{{ post.date | date_to_string: "ordinal", "US" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string: "ordinal", "US" }}</time>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   </li>
 {% endfor %}
