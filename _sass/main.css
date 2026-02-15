@@ -7,6 +7,7 @@
   --serif-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
+  --font-size: 1.2em;
   --line-height: 1.2rem;
 
   /* Sizes */
@@ -38,6 +39,7 @@ progress {
 }
 
 html {
+  font-size: var(--font-size);
   font-family: var(--serif-font);
   line-height: var(--line-height);
   color: var(--text-color);
