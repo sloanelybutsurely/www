@@ -38,4 +38,10 @@ There are also things like...
 
 Or [links](https://wikipedia.org) and footnotes[^1]
 
+If you have a section separated by...
+
+---
+
+...a horizontal rule the horizontal rule looks like the thing above.
+
 [^1]: And footnote content looks like this
