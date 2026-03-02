@@ -146,6 +146,7 @@ header {
 
   & a {
     color: var(--header-color) !important; 
+    text-decoration: none;
   }
 
   & .title {
@@ -194,10 +195,10 @@ figure > img, figure > video, figure > iframe {
 
 a,
 a:visited {
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: underline;
   }
 }
 
