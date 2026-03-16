@@ -4,7 +4,7 @@
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
     "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
     "Helvetica Neue", sans-serif;
-  --serif-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --serif-font: Lora, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   --font-size: 1.2em;
@@ -72,7 +72,8 @@ sup, sub {
 }
 /* Typography */
 h1, h2, h3 {
-  font-family: var(--sans-font);
+  /* font-family: var(--sans-font); */
+  font-family: var(--serif-font);
   color: var(--header-color);
 }
 
@@ -152,7 +153,6 @@ header {
   & .title {
     flex-grow: 2;
     font-size: 1.2rem;
-    font-family: var(--serif-font);
   }
 }
 
