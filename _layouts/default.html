@@ -4,9 +4,9 @@
     {% include head.html %}
   </head>
   <body class="{{ page.layout }} {{ page.page_class }}">
-    <header>
+    {% if page.navigation %}
       {% include navigation.html %}
-    </header>
+    {% endif %}
 
     <main>
       {{ content }}

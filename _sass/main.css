@@ -103,10 +103,10 @@ h2, h3 {
 }
 
 p {
-  hyphens: auto;
-  text-align: justify;
-  text-wrap: balance;
-  text-wrap: pretty;
+  /* hyphens: auto; */
+  /* text-align: justify; */
+  /* text-wrap: balance; */
+  /* text-wrap: pretty; */
 }
 
 /* Layout */
@@ -219,5 +219,21 @@ hr {
   &::before {
     content: "✴";
     color: var(--text-color);
+  }
+}
+
+
+/* home page */
+body.home {
+  max-width: var(--text-width);
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (width >= 768px) {
+  body.home {
+    padding-top: 6rem;
   }
 }
