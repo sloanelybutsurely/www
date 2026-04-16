@@ -2,6 +2,7 @@
 layout: page
 page_class: home
 title: Sloane Perrault
+navigation: false
 ---
 
 # Sloane Perrault
