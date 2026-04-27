@@ -1,0 +1,15 @@
+---
+import DefaultLayout from "./Default.astro";
+import Navigation from "../components/Navigation.astro";
+
+const title = Astro.props.title || Astro.props.frontmatter?.title;
+---
+
+<DefaultLayout title={title}>
+  <Navigation />
+  <main>
+    {title && <h1>{title}</h1>}
+
+    <slot />
+  </main>
+</DefaultLayout>
