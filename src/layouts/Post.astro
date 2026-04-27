@@ -1,0 +1,19 @@
+---
+import DefaultLayout from "./Default.astro";
+import Navigation from "../components/Navigation.astro";
+
+const { post } = Astro.props;
+const { title } = post.data;
+---
+
+<DefaultLayout title={title}>
+  <Navigation />
+
+  <article>
+    <header>
+      {title && <h1>{title}</h1>}
+    </header>
+
+    <slot />
+  </article>
+</DefaultLayout>
