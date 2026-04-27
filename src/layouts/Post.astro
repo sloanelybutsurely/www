@@ -1,0 +1,16 @@
+---
+import DefaultLayout from "./Default.astro";
+
+const { post } = Astro.props;
+const { title } = post.data;
+---
+
+<DefaultLayout title={title}>
+  <article>
+    <header>
+      <h1>{title}</h1>
+    </header>
+
+    <slot />
+  </article>
+</DefaultLayout>

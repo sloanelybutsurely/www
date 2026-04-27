@@ -1,0 +1,20 @@
+---
+import DefaultLayout from "../../layouts/Default.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+---
+
+<DefaultLayout title="Posts">
+  <ul>
+    {
+      posts
+        .toSorted((a, b) => (a.id > b.id ? -1 : 1))
+        .map((post) => (
+          <li>
+            <a href={`/posts/${post.id}`}>{post.data.title}</a>
+          </li>
+        ))
+    }
+  </ul>
+</DefaultLayout>
