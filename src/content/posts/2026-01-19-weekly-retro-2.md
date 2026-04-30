@@ -1,5 +1,6 @@
 ---
 title: "Weekly Retro #2"
+pubDate: 2026-01-19
 layout: post
 tags:
   - retro

@@ -1,5 +1,6 @@
 ---
 title: 'This Here Article: "In 2026, We Are Friction-Maxxing"'
+pubDate: 2026-01-28
 ---
 
 Earlier this month i read Kathryn Jezer-Morton's ["In 2026, We Are

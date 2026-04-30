@@ -1,5 +1,6 @@
 ---
 title: "A Cool Thing: Kill The Newsletter!"
+pubDate: 2026-01-10
 tags:
   - cool-things
   - newsletters

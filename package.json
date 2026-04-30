@@ -13,6 +13,7 @@
     "caddy": "caddy reverse-proxy --from sloanelybutsurely.localhost --to http://localhost:4321"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.18",
     "astro": "^6.1.9"
   },
   "devDependencies": {

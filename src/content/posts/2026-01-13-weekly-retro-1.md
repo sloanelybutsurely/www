@@ -1,5 +1,6 @@
 ---
 title: "Weekly Retro #1"
+pubDate: 2026-01-13
 tags:
   - retro
   - journal
