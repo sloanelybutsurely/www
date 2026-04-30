@@ -54,7 +54,7 @@ while i walk between my car and wherever I'm going is a little bit of pretend i
 still indulge in.
 
 <figure>
-    <video width="560" height="315" controls src="{% media_url posts/2026/01/19/weekly-retro-2/all_ghillied_up.mp4 %}"></video>
+    <video width="560" height="315" controls src="https://media.sloanelybutsurely.com/posts/2026/01/19/weekly-retro-2/all_ghillied_up.mp4"></video>
 </figure>
 
 <figure>
