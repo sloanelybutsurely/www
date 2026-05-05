@@ -1,19 +1,10 @@
 ---
-const link = (label, href) => ({ label, href });
-const links = [
-  link("sloanelybutsurely.com", "/"),
-  link("posts", "/posts/"),
-];
+
 ---
 
 <nav>
   <ul>
-    {
-      links.map(({ label, href }) => (
-        <li>
-          <a href={href}>{label}</a>
-        </li>
-      ))
-    }
+    <li><a href="/">sloanelybutsurely.com</a></li>
+    <li><a href="/posts/">posts</a></li>
   </ul>
 </nav>

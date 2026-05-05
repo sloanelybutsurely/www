@@ -1,0 +1,21 @@
+---
+import path from "node:path";
+import PageLayout from "./Page.astro";
+
+const { note } = Astro.props;
+
+const basename = path.basename(note.id);
+const dirname = path.dirname(note.id);
+const title = (() => {
+  if (basename === "index") {
+    if (dirname === ".") return "notes";
+
+    return dirname;
+  }
+  return basename;
+})();
+---
+
+<PageLayout title={title}>
+  <slot />
+</PageLayout>

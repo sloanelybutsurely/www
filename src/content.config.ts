@@ -1,4 +1,5 @@
-import { defineCollection } from "astro:content";
+import { defineCollection, reference } from "astro:content";
+import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { rssSchema } from "@astrojs/rss";
 
@@ -7,4 +8,9 @@ const posts = defineCollection({
   schema: rssSchema,
 });
 
-export const collections = { posts };
+const notes = defineCollection({
+  loader: glob({ base: "./src/content/notes", pattern: "**/*.md" }),
+  schema: z.object({ tags: z.array(z.string()).optional() }),
+});
+
+export const collections = { posts, notes };
