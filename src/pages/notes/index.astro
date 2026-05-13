@@ -1,7 +1,7 @@
 ---
 import { getEntry, render } from "astro:content";
-import NoteLayout from "../../layouts/Note.astro";
-import { getNoteBacklinks } from "../../utils/notes";
+import NoteLayout from "@/layouts/Note.astro";
+import { getNoteBacklinks } from "@/utils/notes";
 
 const note = await getEntry("notes", "index");
 const { Content } = await render(note);

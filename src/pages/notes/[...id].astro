@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
-import { getNoteBacklinks } from "../../utils/notes";
-import NoteLayout from "../../layouts/Note.astro";
+import { getNoteBacklinks } from "@/utils/notes";
+import NoteLayout from "@/layouts/Note.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
