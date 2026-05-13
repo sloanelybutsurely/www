@@ -4,7 +4,7 @@ pubDate: 2026-05-04
 updatedDate: 2026-05-04
 ---
 
-hello, world!
+Here are some good places to start:
 
 - [[jj]]
 - [[resources]]

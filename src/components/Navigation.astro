@@ -4,7 +4,32 @@
 
 <nav>
   <ul>
-    <li><a href="/">sloanelybutsurely.com</a></li>
+    <li class="site"><a href="/">sloanelybutsurely.com</a></li>
     <li><a href="/posts/">posts</a></li>
+    <li><a href="/notes/">notes</a></li>
+    <li><a href="/now/">now</a></li>
   </ul>
 </nav>
+
+<style>
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: var(--space-2xs);
+    }
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .site a {
+    font-weight: bold;
+    color: var(--body-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+</style>
