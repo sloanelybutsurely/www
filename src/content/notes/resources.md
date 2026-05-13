@@ -1,8 +1,12 @@
-  <ul>
-    <li><a href="https://regexr.com/" target="_blank">regexr.com</a></li>
-  </ul>
+<p>Developer tools I use regularly:</p>
 
-  <ul>
+  <p><ul>
+    <li><a href="https://regexr.com/" target="_blank">regexr.com</a></li>
+  </ul></p>
+
+<p>Resources I've found on other lists of cool tools and asset collections:</p>
+
+  <p><ul>
     <li>
       <a href="https://tools.dia.tv/scan/" target="_blank"
         >tools.dia.tv/scan/</a>
@@ -39,4 +43,4 @@
       <a href="https://archive.org/details/bryce-7.1" target="_blank"
         >archive.org/details/bryce-7.1</a>
     </li>
-  </ul>
+  </ul></p>

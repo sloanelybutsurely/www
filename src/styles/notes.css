@@ -1,0 +1,5 @@
+.note {
+  li {
+    margin-left: var(--space-xs);
+  }
+}
