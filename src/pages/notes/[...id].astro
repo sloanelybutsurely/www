@@ -5,8 +5,9 @@ import NoteLayout from "@/layouts/Note.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
+
   return notes.map((note) => ({
-    params: { id: note.id },
+    params: { id: note.id === "index" ? "" : note.id },
     props: { note },
   }));
 }
