@@ -1,10 +1,13 @@
 ---
+title: Notes
+draft: true
 tags: []
 pubDate: 2026-05-04
-updatedDate: 2026-05-04
+updatedDate: 2026-05-17
 ---
 
-Here are some good places to start:
+Some pages:
 
-- [[jj]]
-- [[resources]]
+- [[content-import|Content Import]]
+- [[jujutsu|Jujutsu (jj)]]
+- [[resources|Resources / Links]]

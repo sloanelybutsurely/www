@@ -11,6 +11,12 @@ export default defineConfig({
   devToolbar: { enabled: false },
 
   markdown: {
+    shikiConfig: {
+      themes: {
+        light: "min-light",
+        dark: "min-dark",
+      },
+    },
     remarkPlugins: [
       [
         remarkWikiLink,

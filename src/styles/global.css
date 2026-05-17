@@ -102,3 +102,16 @@ figure {
   margin-top: var(--space-xs);
   margin-bottom: var(--space-xs);
 }
+
+.astro-code {
+  padding: var(--space-3xs);
+  border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .astro-code,
+  .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
+}

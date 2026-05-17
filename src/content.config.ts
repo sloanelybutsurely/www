@@ -10,7 +10,11 @@ const posts = defineCollection({
 
 const notes = defineCollection({
   loader: glob({ base: "./src/content/notes", pattern: "**/*.md" }),
-  schema: z.object({ tags: z.array(z.string()).optional() }),
+  schema: z.object({
+    title: z.string().optional(),
+    draft: z.boolean().default(false),
+    tags: z.array(z.string()).optional(),
+  }),
 });
 
 export const collections = { posts, notes };

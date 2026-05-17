@@ -8,6 +8,7 @@ const { note } = Astro.props;
 const basename = path.basename(note.id);
 const dirname = path.dirname(note.id);
 const title = (() => {
+  if (note.data.title) return note.data.title;
   if (basename === "index") {
     if (dirname === ".") return "notes";
 
@@ -18,5 +19,13 @@ const title = (() => {
 ---
 
 <PageLayout title={title} class="note">
+  {
+    note.data.draft && (
+      <p>
+        <strong>DRAFT:</strong> This note is a draft. It is likely incomplete
+        and may contain errors.
+      </p>
+    )
+  }
   <slot />
 </PageLayout>
