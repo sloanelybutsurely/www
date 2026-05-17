@@ -1,0 +1,70 @@
+---
+import { getEntry } from "astro:content";
+
+const { note } = Astro.props;
+
+let segments = [];
+
+let curr = "";
+for (const part of note.id.split("/")) {
+  if (part === "index") continue;
+
+  let isLink = false;
+  curr = [curr, part].filter(Boolean).join("/");
+
+  if (curr !== note.id && (await getEntry("notes", curr))) isLink = true;
+
+  segments.push({
+    label: part,
+    id: curr,
+    isLink,
+  });
+}
+---
+
+<nav>
+  <ol>
+    {
+      note.id !== "index" && (
+        <li>
+          <a href="/notes/">notes</a>
+        </li>
+      )
+    }
+    {
+      segments.map(({ label, id, isLink }) => (
+        <li>{isLink ? <a href={`/notes/${id}`}>{label}</a> : label}</li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  nav {
+    --column-space: var(--space-3xs);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-m);
+  }
+
+  ol {
+    display: flex;
+    flex-direction: row;
+    column-gap: var(--column-space);
+
+    &::before {
+      content: "/";
+    }
+
+    li {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      column-gap: var(--column-space);
+    }
+
+    li:not(:last-child)::after {
+      content: "/";
+    }
+  }
+</style>

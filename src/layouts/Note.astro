@@ -1,6 +1,7 @@
 ---
 import path from "node:path";
 import PageLayout from "./Page.astro";
+import NoteBreadcrumbs from "@/components/NoteBreadcrumbs.astro";
 import "@/styles/notes.css";
 
 const { note } = Astro.props;
@@ -18,7 +19,9 @@ const title = (() => {
 })();
 ---
 
-<PageLayout title={title} class="note">
+<PageLayout pageTitle={title} class="note">
+  <h1>{title}</h1>
+  <NoteBreadcrumbs note={note} />
   {
     note.data.draft && (
       <p>
@@ -29,3 +32,9 @@ const title = (() => {
   }
   <slot />
 </PageLayout>
+
+<style>
+  h1:first-of-type {
+    margin-bottom: var(--space-3xs);
+  }
+</style>

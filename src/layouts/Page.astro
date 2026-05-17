@@ -3,9 +3,10 @@ import Navigation from "@/components/Navigation.astro";
 import DefaultLayout from "./Default.astro";
 
 const title = Astro.props.title || Astro.props.frontmatter?.title;
+const pageTitle = Astro.props.pageTitle || title;
 ---
 
-<DefaultLayout title={title}>
+<DefaultLayout title={pageTitle}>
   <Navigation />
   <main class={Astro.props.class}>
     {title && <h1>{title}</h1>}
