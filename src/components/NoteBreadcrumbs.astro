@@ -22,7 +22,7 @@ for (const part of note.id.split("/")) {
 }
 ---
 
-<nav>
+<nav class="breadcrumbs">
   <ol>
     {
       note.id !== "index" && (
@@ -38,33 +38,3 @@ for (const part of note.id.split("/")) {
     }
   </ol>
 </nav>
-
-<style>
-  nav {
-    --column-space: var(--space-3xs);
-    font-size: 0.9rem;
-    margin-bottom: var(--space-m);
-  }
-
-  ol {
-    display: flex;
-    flex-direction: row;
-    column-gap: var(--column-space);
-
-    &::before {
-      content: "/";
-    }
-
-    li {
-      margin: 0;
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      column-gap: var(--column-space);
-    }
-
-    li:not(:last-child)::after {
-      content: "/";
-    }
-  }
-</style>
