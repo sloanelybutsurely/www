@@ -3,8 +3,8 @@ import Navigation from "@/components/Navigation.astro";
 import "@/styles/global.css";
 
 function formatTitle(title: string | null | undefined): string {
-  if (title) return `${title} · sloanelybutsurely.com`
-  return "sloanelybutsurely.com"
+  if (title) return `${title} · sloanelybutsurely.com`;
+  return "sloanelybutsurely.com";
 }
 
 const title = formatTitle(Astro.props.title ?? Astro.props.frontmatter?.title);
@@ -29,11 +29,11 @@ const title = formatTitle(Astro.props.title ?? Astro.props.frontmatter?.title);
     <slot />
     <script>
       // open all external links in a new tab:
-      document.querySelectorAll('a').forEach((a) => {
-        if (a.href && (new URL(a.href)).host !== window.location.host) {
-          a.setAttribute('target', '_blank');
+      document.querySelectorAll("a").forEach((a) => {
+        if (a.href && new URL(a.href).host !== window.location.host) {
+          a.setAttribute("target", "_blank");
         }
-      })
+      });
     </script>
   </body>
 </html>

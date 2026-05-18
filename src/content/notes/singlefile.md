@@ -13,5 +13,4 @@ Integrates nicely with linkding[^1].
 
 Also available as a [cli tool](https://github.com/gildas-lormeau/single-file-cli).
 
-
 [^1]: [linkding.link - Archiving - Using the SingleFile Browser Extension](https://linkding.link/archiving/#using-the-singlefile-browser-extension)
