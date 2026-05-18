@@ -2,7 +2,12 @@
 import Navigation from "@/components/Navigation.astro";
 import "@/styles/global.css";
 
-const title = Astro.props.title ?? Astro.props.frontmatter?.title;
+function formatTitle(title: string | null | undefined): string {
+  if (title) return `${title} · sloanelybutsurely.com`
+  return "sloanelybutsurely.com"
+}
+
+const title = formatTitle(Astro.props.title ?? Astro.props.frontmatter?.title);
 ---
 
 <!doctype html>
