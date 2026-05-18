@@ -30,4 +30,13 @@
       }
     }
   }
+
+  .footnotes {
+    font-size: 0.9rem;
+    border-top: 1px solid var(--body-color);
+  }
+
+  .data-footnote-backref {
+    font-family: monospace;
+  }
 }
