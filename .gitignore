@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # compiled lexicons
 src/lexicons/
+.obsidian/
