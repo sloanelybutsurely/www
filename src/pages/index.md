@@ -31,11 +31,3 @@ via email][email].
 [bluesky]: https://bsky.app/profile/sloanelybutsurely.com
 [instagram]: https://instagram.com/sloanelybutsurely
 [email]: mailto:sloane@sloanelybutsurely.com
-
-<script>
-  document.querySelectorAll('a').forEach((a) => {
-    if (a.href && (new URL(a.href)).host !== window.location.host) {
-      a.setAttribute('target', '_blank');
-    }
-  })
-</script>
