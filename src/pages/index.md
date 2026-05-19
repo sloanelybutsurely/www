@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Default.astro
+layout: ../layouts/DefaultLayout.astro
 title: Sloane Perrault
 ---
 
