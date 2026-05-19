@@ -2,6 +2,7 @@
 import path from "node:path";
 import PageLayout from "./PageLayout.astro";
 import NoteBreadcrumbs from "@/components/NoteBreadcrumbs.astro";
+import NoteBacklinks from "@/components/NoteBacklinks.astro";
 import "@/styles/notes.css";
 
 const { note } = Astro.props;
@@ -31,6 +32,7 @@ const title = (() => {
     )
   }
   <slot />
+  <NoteBacklinks note={note} />
 </PageLayout>
 
 <style>

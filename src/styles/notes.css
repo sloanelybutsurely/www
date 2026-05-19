@@ -39,4 +39,14 @@
   .data-footnote-backref {
     font-family: monospace;
   }
+
+  .backlinks {
+    font-size: 0.9rem;
+    margin-top: var(--space-xs);
+
+    summary {
+      cursor: pointer;
+      margin-bottom: var(--space-3xs);
+    }
+  }
 }

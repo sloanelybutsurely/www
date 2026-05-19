@@ -9,5 +9,5 @@ updatedDate: 2026-05-17
 Some pages:
 
 - [[content-import|Content Import]]
-- [[./software/jujutsu|Jujutsu (jj)]]
+- [[software/jujutsu|Jujutsu (jj)]]
 - [[resources|Resources / Links]]

@@ -1,0 +1,30 @@
+---
+import { getEntry } from "astro:content";
+import { getNoteBacklinks } from "@/utils/notes";
+const { note } = Astro.props;
+
+const backlinkIds = await getNoteBacklinks(note.id);
+const backlinks = await Promise.all(
+  backlinkIds.map((id) => getEntry("notes", id)),
+);
+---
+
+{
+  backlinks.length > 0 && (
+    <details class="backlinks">
+      <summary>Backlinks</summary>
+
+      <ul>
+        {backlinks.map((backlinkNote) => (
+          <li>
+            <a
+              href={`/notes/${backlinkNote.id === "index" ? "" : backlinkNote.id}`}
+            >
+              {backlinkNote.data.title || backlinkNote.id}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </details>
+  )
+}
