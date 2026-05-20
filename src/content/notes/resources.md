@@ -3,7 +3,8 @@ title: Resources / Links
 draft: true
 ---
 
-[[singlefile|SingleFile]]
+- [[singlefile|SingleFile]]: Archiving webpages as single HTML files
+- [[alternative-to|AlternativeTo]]
 
 <p>Developer tools I use regularly:</p>
 
