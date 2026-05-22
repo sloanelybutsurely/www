@@ -43,5 +43,10 @@ $ cyanrip -V
 cyanrip 0.9.3 (release)
 ```
 
+---
+
+Having issues? Shoot me an [email] and I'll try my best to help.
+
 [brew]: https://brew.sh
 [releases]: https://github.com/cyanreg/cyanrip/releases
+[email]: mailto:sloane@sloanelybutsurely.com

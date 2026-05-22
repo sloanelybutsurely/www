@@ -55,6 +55,7 @@ url = "https://github.com/pnpm/pnpm/releases/download/v11.0.9/pnpm-linux-x64-mus
 [tools.pnpm."platforms.macos-arm64"]
 checksum = "sha256:b7264bfdcbcee37d8fb302256fae799dd067f4e8996d7202fcb4a5a3ee2665f7"
 url = "https://github.com/pnpm/pnpm/releases/download/v11.0.9/pnpm-darwin-arm64.tar.gz"
+provenance = "github-attestations"
 
 [tools.pnpm."platforms.windows-x64"]
 checksum = "sha256:608c56dc746444f133ca901a5a0a32be779d28dcbcf4e7d7bf48372b005b907a"
