@@ -24,13 +24,7 @@ for (const part of note.id.split("/")) {
 
 <nav class="breadcrumbs">
   <ol>
-    {
-      note.id !== "index" && (
-        <li>
-          <a href="/notes/">notes</a>
-        </li>
-      )
-    }
+    <li>{note.id !== "index" ? <a href="/notes/">notes</a> : "notes"}</li>
     {
       segments.map(({ label, id, isLink }) => (
         <li>{isLink ? <a href={`/notes/${id}`}>{label}</a> : label}</li>

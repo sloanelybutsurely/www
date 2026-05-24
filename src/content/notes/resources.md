@@ -1,6 +1,5 @@
 ---
 title: Resources / Links
-draft: true
 ---
 
 - [[singlefile|SingleFile]]: Archiving webpages as single HTML files

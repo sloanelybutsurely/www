@@ -7,7 +7,7 @@ updatedDate: 2026-05-04
 ---
 
 jujutsu (jj) is a version control tool built on top of git (there is an
-internal backend independent of git but very few people use it).
+internal backend independent of git but it is to my understanding incomplete).
 
 jj differs from git in a few meaningful ways:
 
