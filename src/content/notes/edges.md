@@ -23,5 +23,5 @@ typically have to have come across it several times.
 These are things I'm actively pursuing. Ideally these become notes of their
 own.
 
-- FreeBSD
+- [[freebsd|FreeBSD]]
 - The Five Books of Moses
