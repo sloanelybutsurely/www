@@ -106,6 +106,8 @@ figure {
 .astro-code {
   padding: var(--space-3xs);
   border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -127,4 +129,14 @@ figure {
   clip-path: inset(50%);
   white-space: nowrap;
   border-width: 0;
+}
+
+.footnotes {
+  font-size: 0.9rem;
+  border-top: 1px solid var(--body-color);
+  padding: 0 var(--space-s);
+}
+
+.data-footnote-backref {
+  font-family: monospace;
 }
