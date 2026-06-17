@@ -1,0 +1,81 @@
+#!/usr/bin/env -S awk -f
+BEGIN {
+  print "<!doctype html>"
+  print
+}
+
+/^- / { 
+  $1 = ""
+  if (ul == 0) {
+    ul = 1
+    print "<ul>"
+  }
+  print "  <li>" $0
+  next
+}
+
+/^[0-9]+\. / {
+  $1 = ""
+  if (ol == 0) {
+    ol = 1
+    print "<ol>"
+  }
+  print "  <li>" $0
+  next
+}
+
+/^====== / { $1 = ""; print "<h6>" $0 " </h6>"; next }
+/^===== /  { $1 = ""; print "<h5>" $0 " </h5>"; next }
+/^==== /   { $1 = ""; print "<h4>" $0 " </h4>"; next }
+/^=== /    { $1 = ""; print "<h3>" $0 " </h3>"; next }
+/^== /     { $1 = ""; print "<h2>" $0 " </h2>"; next }
+/^= /      {
+  $1 = ""
+  $0 = $0
+  $1 = $1
+  print "<title>" $0 " - sloanelybutsurely.com</title>"
+  print "<h1>", $0, "</h1>"
+  next
+}
+
+/^    / {
+  if (pre == 0) {
+    print "<pre>"
+    pre = 1
+  }
+  sub(/^    /, "")
+  print $0
+  next
+}
+
+/^$/ {
+  if (ul) {
+    print "</li></ul>"
+    ul = 0
+  }
+  if (ol) {
+    print "</li></ol>"
+    ol = 0
+  }
+  if (pre) {
+    print "</pre>"
+    pre = 0
+  }
+  p = 0
+  print
+  next
+}
+
+{
+  if (p == 0) {
+    p = 1
+    print "<p> " $0
+  } else {
+    print "    " $0
+  }
+}
+
+END {
+  if (ul > 1) print "</li></ul>"
+  if (ol > 1) print "</li></ol>"
+}

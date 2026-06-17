@@ -1,0 +1,70 @@
+#!/usr/bin/env -S awk -f
+
+# headings
+/^====== / { kind = "h6" }
+/^===== /  { kind = "h5" }
+/^==== /   { kind = "h4" }
+/^=== /    { kind = "h3" }
+/^== /     { kind = "h2" }
+/^= /      { kind = "h1" }
+
+# lists
+/^- /         { kind = "ul" }
+/^[#0-9]+\. / { kind = "ol" }
+
+# links
+/^\[.*\]: / { 
+  gsub(/[\[\]:]/, "", $1)
+  label = $1
+  $1 = ""
+  sub(/^ */, "");
+  links[label] = $0
+  next
+}
+
+# preformatted
+/^     */ { kind = "pre" }
+
+# empty lines emit paragraphs
+/^$/ { flush(); next }
+
+{
+  if (kind && kind != "p") {
+    if (kind == "pre") {
+      sub(/^    /, "")
+    } else {
+      $1 = ""
+      sub(/^ */, "")
+    }
+    printf("%s: %s\n", kind, $0)
+    kind = ""
+  } else {
+    kind = "p"
+    bufferline()
+  }
+}
+
+# emit final paragraph
+END {
+  flush();
+  for (label in links) {
+    printf("link: %s %s\n", label, links[label])
+  }
+}
+
+## functions
+
+function flush() {
+  if (kind == "p") {
+    printf("p: ")
+    for (i = 0; i < length(ls); i++) {
+      printf("%s", ls[i])
+      if (i == length(ls) - 1) printf("\n")
+      else printf(" ")
+    }
+    kind = "";
+    delete ls;
+  }
+}
+
+function bufferline() { ls[length(ls)] = $0 }
