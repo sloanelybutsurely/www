@@ -4,78 +4,35 @@ BEGIN {
   print
 }
 
-/^- / { 
-  $1 = ""
-  if (ul == 0) {
-    ul = 1
-    print "<ul>"
-  }
-  print "  <li>" $0
-  next
-}
-
-/^[0-9]+\. / {
-  $1 = ""
-  if (ol == 0) {
-    ol = 1
-    print "<ol>"
-  }
-  print "  <li>" $0
-  next
-}
-
-/^====== / { $1 = ""; print "<h6>" $0 " </h6>"; next }
-/^===== /  { $1 = ""; print "<h5>" $0 " </h5>"; next }
-/^==== /   { $1 = ""; print "<h4>" $0 " </h4>"; next }
-/^=== /    { $1 = ""; print "<h3>" $0 " </h3>"; next }
-/^== /     { $1 = ""; print "<h2>" $0 " </h2>"; next }
-/^= /      {
-  $1 = ""
-  $0 = $0
-  $1 = $1
-  print "<title>" $0 " - sloanelybutsurely.com</title>"
-  print "<h1>", $0, "</h1>"
-  next
-}
-
-/^    / {
-  if (pre == 0) {
-    print "<pre>"
-    pre = 1
-  }
-  sub(/^    /, "")
-  print $0
-  next
-}
-
-/^$/ {
-  if (ul) {
-    print "</li></ul>"
-    ul = 0
-  }
-  if (ol) {
-    print "</li></ol>"
-    ol = 0
-  }
-  if (pre) {
-    print "</pre>"
-    pre = 0
-  }
-  p = 0
-  print
-  next
-}
-
 {
-  if (p == 0) {
-    p = 1
-    print "<p> " $0
-  } else {
-    print "    " $0
-  }
+  sub(":", "", $1);
+  content = substr($0, length($1) + 2)
 }
+$1 == "link" { links[$2] = $3; last = ""; next }
+
+$1 == "h1" {
+  print "<title>" content "</title>"
+  print "<h1>" content "</h1>"
+}
+$1 == "h2" { print "<h2>" content "</h2>" }
+$1 == "h3" { print "<h3>" content "</h3>" }
+$1 == "h4" { print "<h4>" content "</h4>" }
+$1 == "h5" { print "<h5>" content "</h5>" }
+$1 == "h6" { print "<h6>" content "</h6>" }
+
+$1 == "p" { print "<p>" content "</p>" }
+
+
+last && ($1 == "ul" || $1 == "ol") && $1 != last {
+  print "<" $1 ">"
+}
+
+last && (last == "ul" || last == "ol") && $1 != last {
+  print "</" $1 ">"
+}
+
+{ last = $1 }
 
 END {
-  if (ul > 1) print "</li></ul>"
-  if (ol > 1) print "</li></ol>"
+  if (last == "ul" || last == "ol") print "</" last ">"
 }
